@@ -1,0 +1,48 @@
+/********** Start Header **********/
+
+
+.navbar-nav .nav-item {
+    border-radius: 20px;
+  }
+  .navbar-nav .nav-item:hover {
+    background-color: rgb(222, 219, 219);
+    transition: 0.3s;
+    color: white;
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-logo img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+  .navbar-toggler-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .offcanvas .navbar-logo {
+    width: 120px;
+  }
+  
+  .offcanvas .nav-link {
+    font-size: 1.1em;
+  }
+  /*** Start Responsive Header ***/
+  @media (max-width: 768px) {
+    .navbar-logo img {
+      width: 100px;
+    }
+    .navbar-toggler-icon {
+      width: 1em;
+      height: 1em;
+    }
+    .offcanvas .navbar-logo {
+      width: 100px;
+    }
+    .offcanvas .nav-link {
+      font-size: 1em;
+    }
+  }
+  /*** End Responsive Header ***/
+  /********** End Header **********/

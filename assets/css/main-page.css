@@ -1,0 +1,55 @@
+/********** Start Main **********/
+.nav-link {
+    color: #fff;
+}
+header {
+    background-image: url("../../public/images/main-page/Home.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main {
+    border-top: 1px solid #727070;
+    border-bottom: 1px solid #727070;
+}
+/********** End Main **********/
+.main-info .main-info-header .main-info-header-option li .text-black {
+    position: relative;
+}
+.main-info .main-info-header .main-info-header-option li .text-black::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: 0.4s;
+}
+
+.main-info
+    .main-info-header
+    .main-info-header-option
+    li
+    .text-black:hover::before {
+    width: 100%;
+}
+.main-info-cards .card {
+    overflow: hidden;
+}
+.main-info-cards .card img {
+    transition: 0.4s;
+}
+
+.border-grey {
+    border-color: hsla(0, 2%, 51%, 1) !important;
+}
+.main-blog .card {
+    transition: 0.4s;
+}
+.main-blog .card:hover {
+    transform: scale(1.03);
+}
+.main-blog .card img {
+    filter: brightness(0.8);
+}

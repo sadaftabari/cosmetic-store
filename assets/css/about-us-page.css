@@ -1,0 +1,22 @@
+  /**** About Us Section ****/
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  /*** Start Responsive About Us ***/
+  @media (max-width: 768px) {
+    .about-us {
+      gap: 5vw;
+    }
+    .about-us .about-us-desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+      
+    }
+    .height-200{
+height: 200px;
+    }
+  }
+  /*** End Responsive About Us ***/

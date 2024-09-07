@@ -1,0 +1,33 @@
+/********** Start Footer **********/
+.footer {
+    background: #2f2f2f;
+    color: white;
+  }
+  .footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .footer .footer-row {
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+  }
+  .footer .footer-section.location {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+  }
+  .footer .footer-bottom .footer-logo {
+    max-width: 140px;
+  }
+  /******* Start Responsive Footer *******/
+  @media (max-width: 768px) {
+    .footer .footer-section.location {
+      border-left: none;
+      border-right: none;
+      border-top: 2px solid gray;
+    }
+    .footer .footer-section.link {
+      border-bottom: 2px solid gray;
+    }
+  }
+  /******* End Responsive Footer *******/
+  /********** End Footer **********/

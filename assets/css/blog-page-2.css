@@ -1,0 +1,15 @@
+  /**** Blog Page Section ****/
+  @media (max-width: 768px) {
+    .blog-page .blog-info .info-desc p {
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+     
+    }
+    .blog-group .blog-list .list-item .list-item-info .info-desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 7;
+      -webkit-box-orient: vertical;
+      
+    }
+  }
